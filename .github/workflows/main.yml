@@ -1,11 +1,10 @@
-name: github-actions
+name: actions-github
 on: push
 
 jobs:
-  explore-github-actions:
+  explore-actions:
     runs-on: ubuntu-latest
     steps:
-      - name: The triggering event
-        run: echo "The triggering event is ${{ github.event_name }}."
-      - name: The OS
-        run: echo "The OS name is ${{ runner.os }}"
+     - name: the triggring event 
+       run: echo "the trigring event is ${{ github.event_name}}"
+  
